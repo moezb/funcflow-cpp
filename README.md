@@ -19,7 +19,7 @@ FuncFlow lets you compose multi-stage workflows from small, reusable functors â€
 ## Requirements
 
 - C++20 compiler (GCC 11+, Clang 14+, MSVC 2022+)
-- OpenMP (optional, for parallel execution)
+- OpenMP (optional, for parallel execution) which is usually already included for GCC.
 
 
 ## Installation
