@@ -1,8 +1,8 @@
 # FuncFlow
 
-A header-only C++20 library for building type-safe, functor-based data processing pipelines over ranges.
+A simple header-only C++20 library for building type-safe, functor-based data processing pipelines over ranges.
 
-FuncFlow lets you compose multi-stage workflows from small, reusable functors — modifiers that transform data, collectors that extract results, and flag visitors that accumulate state — all wired together with a fluent builder API and optional parallel execution.
+FuncFlow lets you compose multi-stage workflows from small, reusable functors — modifiers that transform data, collectors that extract results, and flag visitors that accumulate state — all wired together with a fluent builder API and optional parallel execution using OpenMP.
 
 ## Features
 
